@@ -1,0 +1,98 @@
+header {
+  padding: 1.5rem 0;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo-link {
+  color: #ff6453;
+
+  text-decoration: none;
+
+  font-size: 22px;
+  font-family: "Vazir";
+}
+.site-logo-link span {
+  color: #fff;
+  transition: all ease-in 150ms 20ms;
+}
+.site-logo-link:hover span {
+  color: #ff6453;
+}
+
+.header-list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-list-wrapper li {
+  list-style: none;
+}
+
+.header-list-wrapper a {
+  color: #fff;
+  text-decoration: none;
+
+  font-family: "Vazir";
+
+  transition: all 150ms ease-in 20ms;
+}
+.header-list-wrapper a:hover {
+  color: #ff6453;
+}
+.header-list-wrapper a.active-page {
+  color: #ff6453;
+}
+
+.menu-icon {
+  display: none;
+
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  cursor: pointer;
+
+  position: relative;
+}
+.menu-icon::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 6px;
+}
+.menu-icon::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+
+  position: absolute;
+  top: 6px;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 5px black, 0 0 0 0;
+  }
+
+  .header-list-wrapper {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
