@@ -39,7 +39,9 @@ function Header() {
                 <a href="#">ارتباط با من</a>
               </li>
             </ul>
-            <span className="menu-icon"></span>
+            <div className="menu-icon-wrapper">
+              <span className="menu-icon"></span>
+            </div>
           </div>
         </div>
       </div>

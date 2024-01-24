@@ -54,13 +54,15 @@ header {
   color: #ff6453;
 }
 
+.menu-icon-wrapper {
+  cursor: pointer;
+}
 .menu-icon {
   display: none;
 
   width: 25px;
   height: 2px;
   background-color: #fff;
-  cursor: pointer;
 
   position: relative;
 }
