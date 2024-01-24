@@ -1,0 +1,1 @@
+.social-container{position:fixed;bottom:20px;right:0}.social-parent{display:flex;flex-direction:column;gap:8px}@media screen and (max-width:768px){.social-container{display:none}}
