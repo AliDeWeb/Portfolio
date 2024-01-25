@@ -1,1 +1,71 @@
-.freelancer-introduction-wrapper{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}.freelancer-img-wrapper{width:250px;height:250px;background-color:#fafafa;border-radius:100%}.freelancer-img-wrapper img{width:100%;height:100%}.freelancer-name{font-size:28px;color:#fafafa;font-family:vazir;margin:1rem 0}.freelancer-intro{font-size:40px;color:#fafafa;font-family:vazir;margin-bottom:1rem}.freelancer-intro span{color:#ff645e}.resume-link-wrapper{background-color:#ff645e;border-radius:1rem;padding:10px 30px}.resume-link-wrapper a{color:#fafafa;text-decoration:none;font-family:vazir}@media screen and (max-width:992px){.freelancer-name{font-size:26px}.freelancer-intro{font-size:35px}}@media screen and (max-width:768px){.freelancer-name{font-size:25px}.freelancer-intro{font-size:32px}}@media screen and (max-width:576px){.freelancer-name{font-size:23px}.freelancer-intro{font-size:27px}}
+.freelancer-introduction-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.freelancer-img-wrapper {
+  width: 250px;
+  height: 250px;
+  background-color: #fafafa;
+  border-radius: 100%;
+}
+.freelancer-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.freelancer-name {
+  font-size: 28px;
+  color: #fafafa;
+  font-family: vazir;
+  margin: 1rem 0;
+}
+.freelancer-intro {
+  font-size: 40px;
+  font-family: vazir;
+  margin-bottom: 1rem;
+}
+.freelancer-intro * {
+  color: #fff !important;
+
+  display: inline !important;
+}
+.color-orange {
+  color: #ff645e !important;
+}
+
+.resume-link-wrapper {
+  background-color: #ff645e;
+  border-radius: 1rem;
+  padding: 10px 30px;
+}
+.resume-link-wrapper a {
+  color: #fafafa;
+  text-decoration: none;
+  font-family: vazir;
+}
+@media screen and (max-width: 992px) {
+  .freelancer-name {
+    font-size: 26px;
+  }
+  .freelancer-intro {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .freelancer-name {
+    font-size: 25px;
+  }
+  .freelancer-intro {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .freelancer-name {
+    font-size: 23px;
+  }
+  .freelancer-intro {
+    font-size: 27px;
+  }
+}

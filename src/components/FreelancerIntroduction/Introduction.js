@@ -1,6 +1,8 @@
 import "./Introduction.css";
 import reactImg from "../../assets/imgs/react.png";
 
+import Typewriter from "typewriter-effect";
+
 function FreelancerIntroduction() {
   return (
     <div>
@@ -10,10 +12,23 @@ function FreelancerIntroduction() {
             <img src={reactImg} alt="img" />
           </div>
           <h2 className="freelancer-name">من علی مرادی هستم</h2>
-          <p className="freelancer-intro">
+          <div className="freelancer-intro">
+            <span className="color-orange">یک</span>
             {" "}
-            <span>یک</span> توسعه دهنده وب{" "}
-          </p>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("طراح")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("برنامه نویس")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("توسعه دهنده وب...")
+                  .start();
+              }}
+            />
+          </div>
 
           <div className="resume-link-wrapper">
             <a href="#">دانلود رزومه</a>
