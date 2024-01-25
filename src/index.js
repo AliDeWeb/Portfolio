@@ -6,6 +6,7 @@ import './index.css';
 import "./assets/css/reset.css";
 import "./assets/css/fonts.css";
 import "./assets/css/responsive.css";
+import "./assets/css/scrollbar.css";
 
 // Custom Js Files
 import App from './App';
