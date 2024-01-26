@@ -3,6 +3,7 @@ import FreelancerIntroduction from "./components/FreelancerIntroduction/Introduc
 import Social from "./components/FreelancerSocial/Social";
 import AboutFreelancer from "./components/AboutFreelancer/AboutFreelancer";
 import Skills from "./components/Skills/Skills";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Social></Social>
         <AboutFreelancer />
         <Skills></Skills>
+        <Services></Services>
       </main>
     </div>
   );
