@@ -1,1 +1,1 @@
-*,::after,::before{box-sizing:border-box}body{background-color:#2c2d30}
+*,::after,::before{box-sizing:border-box;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}body{background-color:#2c2d30}
