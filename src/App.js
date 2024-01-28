@@ -5,6 +5,7 @@ import AboutFreelancer from "./components/AboutFreelancer/AboutFreelancer";
 import Skills from "./components/Skills/Skills";
 import Services from "./components/Services/Services";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Skills />
         <Services />
         <ScrollTop />
+        <Projects />
       </main>
     </div>
   );
