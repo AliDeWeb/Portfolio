@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Services from "./components/Services/Services";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Projects from "./components/Projects/Projects";
+import Comments from "./components/comments/Comments";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <ScrollTop />
         <Projects />
+        <Comments />
       </main>
     </div>
   );
