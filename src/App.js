@@ -7,7 +7,8 @@ import Services from "./components/Services/Services";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Projects from "./components/Projects/Projects";
 import Comments from "./components/comments/Comments";
-import Blog from "./components/Blog/Blog"
+import Blog from "./components/Blog/Blog";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,8 +23,11 @@ function App() {
         <ScrollTop />
         <Projects />
         <Comments />
-        <Blog/>
+        <Blog />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
