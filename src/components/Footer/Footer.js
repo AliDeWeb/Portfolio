@@ -16,8 +16,8 @@ export default class Footer extends Component {
       <div>
         <div className="footer-sec-wrapper">
           <div className="container">
-            <p className="footer-section-des">ارائه خدمات</p>
-            <h2 className="footer-section-title">خدمات های من</h2>
+            <p className="footer-section-des">با من در تماس باشید</p>
+            <h2 className="footer-section-title">ارتباط با من</h2>
 
             <Map locationLink="https://nshn.ir/_b1BDgPB0cWD" />
 
@@ -46,8 +46,7 @@ export default class Footer extends Component {
             </div>
 
             <p className="footer-pa">
-              حق نشر محفوظ است. طراحی قالب توسط
-              {" "}
+              حق نشر محفوظ است. طراحی قالب توسط{" "}
               <a href="https://github.com/AliDeWeb">AliDeWeb</a>
             </p>
           </div>
