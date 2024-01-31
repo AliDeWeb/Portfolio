@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Projects from "./components/Projects/Projects";
 import Comments from "./components/comments/Comments";
+import Blog from "./components/Blog/Blog"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <ScrollTop />
         <Projects />
         <Comments />
+        <Blog/>
       </main>
     </div>
   );
