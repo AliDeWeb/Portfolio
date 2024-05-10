@@ -30,11 +30,6 @@ npm start
 
 4. Access your site: Open your browser and navigate to http://localhost:3000/.
 
-## View Online
-
-You can view the live version of the project by following this [link](https://alideweb-portfolio.liara.run/).
-
-
 <h3>🚀 Now, go ahead and impress the world with your amazing skills! 🚀</h3>
 
 Happy coding! 💻
